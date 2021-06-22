@@ -16,7 +16,8 @@
     </header>
 
         <div id="bg">
-
+            <div class="ball top"></div>
+            <div class="ball bottom"></div>
         </div>
         
         <main>
@@ -26,7 +27,10 @@
                     <form action="GET">
                         <label class="sr-only" for="room-code">Room Code</label>
                         <input type="number" id="room-code" placeholder="Enter code...">
-                        <button>Join room!</button>
+                        <button>
+                            <img src="./assets/log-in.svg" alt="Enter room"> 
+                            Join room
+                        </button>
                     </form>
                 </section>
                 <div class="separator">
@@ -37,6 +41,7 @@
                 <section>
                     <h2>Create your room</h2>
                     <a href="create-room.html" class="button outlined">
+                        <img src="./assets/users.svg" alt="Create room"> 
                         Create Room
                     </a>
                 </section>

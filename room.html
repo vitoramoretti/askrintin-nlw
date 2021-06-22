@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/room.css">
+        <link rel="stylesheet" href="./styles/global.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+        <title>AsKrintin - Q&A</title>
+    </head>
+
+    <body>
+        <div id="room" class="content">
+            <header>
+                <a href="#">
+                    <img src="./assets/logo.svg" alt="askrintin logo"/>
+                </a>
+                <div class="buttons">
+                    <div class="button outlined">
+                        #501580
+                        <img src="./assets/boxes.svg" alt="copy room number"/>
+                    </div>
+                    <a href="#" class="button">
+                        <img src="./assets/users_white.svg" alt="create room"/>
+                        Create
+                    </a>
+                </div>
+            </header>
+            <main>
+                <section id="question-form">
+                    <h2>Make a question</h2>
+                    <br>
+                    <form action="">
+                        <label class="sr-only" for-id="question">What is your question?</label>
+                        <textarea name="question" id="question" placeholder="What is your question?"></textarea>
+
+                        <footer>
+                            <div>
+                                <img src="assets/lock.svg" alt="lock">
+                                This question is anonymous
+                            </div>
+                            <button>Send</button>
+                        </footer>
+                    </form>
+                </section>
+
+                <section id="questions">
+                    <h2 class="sr-only">Questions from users</h2>
+                    <div class="questions">
+
+                        <div class="question-wrapper">
+                            <div class="question-content">
+                                <div class="user">
+                                    <img src="assets/avatar_user.svg" alt="Avatar">
+                                </div>
+                                <div class="question">
+                                    <p>What is your favorite song?</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="check">
+                                    <img src="assets/check.svg" alt="mark as read">
+                                    Mark as read
+                                </a>
+                                <a href="#" class="delete">
+                                    <img src="assets/trash.svg" alt="delete">
+                                    Delete
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
