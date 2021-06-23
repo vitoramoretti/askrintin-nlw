@@ -16,5 +16,9 @@ This was a very tranquil project start. I created the main layout for the home p
 
 This was more about the other view such as the one for creating a room and the one for asking the questions. Still it was pretty much just layout and Front End stuff.
 
+## Day 3
+
+It was definetly a shorter activity. It was for finishing the layout for the room and addind a modal to be prompted when deleting a message. Basically HTML and CSS so far.
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
