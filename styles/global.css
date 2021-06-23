@@ -10,7 +10,7 @@ html {
     --black: #0D114f;
     --white: #FAFAFA;
     --red: #E83F5B;
-    --light-blue: #EOECFF;
+    --light-blue: #E0ECFF;
     --blue: #3485FF;
     --background: #F6FAFF;
     --overlay: #040911;
@@ -18,6 +18,7 @@ html {
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-light: #E5EAF1;
+    --grey-medium: #eaecf2;
 
     font-size: 62.5%;
 }
@@ -63,11 +64,29 @@ button:hover, .button:hover {
     filter: brightness(1.2)
 }
 
+button > img,
+.button > img {
+    margin-right: 1rem;
+    width: 2rem;
+}
+
 button.outlined,
 .button.outlined {
     background: var(--white);
     color: var(--blue);
     border: 0.2rem solid var(--blue);
+}
+
+button.red,
+.button.red{
+    background: var(--red);
+    color: var(--white);
+}
+
+button.grey,
+.button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
 }
 
 .sr-only {
