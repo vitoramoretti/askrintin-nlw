@@ -1,0 +1,29 @@
+{
+  "name": "askrintin",
+  "version": "1.0.0",
+  "description": "Project developed during Next Level Week - Discover track.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoramoretti/askrintin-nlw.git"
+  },
+  "keywords": [],
+  "author": "Vitor Amoretti <amoretti.vitor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoramoretti/askrintin-nlw/issues"
+  },
+  "homepage": "https://github.com/vitoramoretti/askrintin-nlw#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
