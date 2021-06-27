@@ -15,4 +15,4 @@ app.use(express.urlencoded({extended: true}))
 app.use(route)
 
 
-app.listen(3000, () => console.log("running on https://localhost/3000")  )
+app.listen(3000, () => console.log("running on localhost:3000")  )
