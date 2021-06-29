@@ -25,5 +25,9 @@ It was definetly a shorter activity. It was for finishing the layout for the roo
 Today was fun! We finished the modal for when deleting or marking question as read. We initialized the Node project along with Express for the routes and EJS for the view engine. We were also able to create Controllers for the routes. In the very end we created and connected to a SQLite database for creating the rooms.
 It was a great class for sure and made me connect a lot of dots. 🚀
 
+## 📔 Day 5
+
+Finished but with lots of room for improvement. There are lots of features that could be added here to make the project a bit more interesting. But we were able to complete all the functionallity in the system and it's great! I'll probably use this repo as a testing area and who know, I might even deploy to the web to get some feedback from the community! Thanks [Rocketseat 🚀](https://github.com/rocketseat-education) for all the amazing material you guys provide FREE of charge! Keep on coding yall!
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
