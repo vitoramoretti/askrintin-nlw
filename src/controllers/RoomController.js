@@ -3,7 +3,7 @@ const Database = require("../db/config");
 module.exports = {
   async create(req, res) {
     const db = await Database();
-    const pass = req.body.password;
+    const pass = await req.body.password;
     let roomId;
     let isRoom = true;
     while (isRoom) {
@@ -23,7 +23,7 @@ module.exports = {
                 pass
             ) VALUES (
                 ${parseInt(roomId)},
-                ${pass}
+                "${pass}"
             )`);
     }
 
