@@ -2,6 +2,10 @@
 
 Ask Krintin is a project developed during the Next Level Week event by RocketSeat as is being developed in the Discover track as a way for me to solidify the foundation of my learning and feel a bit more prepared.
 
+## Demo
+
+https://user-images.githubusercontent.com/81595226/123866561-9aca2380-d903-11eb-94ef-a71fefed6659.mov
+
 ## About
 
 You can check the original project here [rocket.q](https://github.com/rocketseat-education/nlw6-discover) to have an idea.
